@@ -1,0 +1,30 @@
+/* Container for code blocks */
+.code-block-container {
+  background-color: #f5f5f5; /* Light grey background */
+  border: 1px solid #e1e1e1; /* Light border
+*/
+  border-radius: 4px; /* Rounded corners */
+  padding: 16px; /* Padding inside
+the container */
+  overflow-x: auto; /* Horizontal scroll if content overflows */
+  font-family: "Courier New", Courier, monospace; /* Monospace font for code */
+  font-size: 14px; /* Font size */
+  line-height: 1.5; /* Line height */
+} /* Code
+text styling */
+.code-block-container code {
+  display: block; /* Ensures code
+text is displayed as block */
+  white-space: pre; /* Preserves whitespace and line
+breaks */
+  color: #333; /* Dark text color */
+} /* Syntax highlighting example */
+.code-block-container .keyword {
+  color: #007bff; /* Blue color for keywords */
+}
+.code-block-container .string {
+  color: #d14; /* Red color for strings */
+}
+.code-block-container .comment {
+  color: #6a737d; /* Grey color for comments */
+}
